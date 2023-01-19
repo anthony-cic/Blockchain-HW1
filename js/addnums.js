@@ -10,7 +10,7 @@ function addNums() {
     // If we got some output that isn't a number...
     if (isNaN(result)) {
         // Print an error on bad input
-        document.getElementById("result").innerHTML = "Invalid input";
+        
     } else {
         // Otherwise, add the result to the HTML document
         document.getElementById("result").innerHTML = result;
